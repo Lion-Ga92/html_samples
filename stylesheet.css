@@ -1,0 +1,37 @@
+body {
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+    line-height: 14pt;
+}
+
+h1 {
+    font: 30pt Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 35pt;
+    color: crimson;
+}
+article.columny {
+    column-count: 3;
+    margin-top: 0px;
+    margin-bottom: 20px; 
+    column-gap: 15px
+}
+
+footer {
+    color: black;
+    font-size: 12pt;
+    border-style: dotted;
+    border-width: 3pt;
+
+
+}
+
+table, tr, th, td {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 3px;
+    border-collapse: collapse;
+    color: black;
+}
